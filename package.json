@@ -1,0 +1,33 @@
+{
+  "name": "newsapp",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.21.0",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native-stack": "^6.9.17",
+    "@reduxjs/toolkit": "^2.0.1",
+    "axios": "^1.6.2",
+    "expo": "~49.0.15",
+    "expo-app-loading": "^2.1.1",
+    "expo-status-bar": "~1.6.0",
+    "i18next": "^23.7.8",
+    "intl": "^1.2.5",
+    "intl-pluralrules": "^2.0.1",
+    "pluralize": "^8.0.0",
+    "react": "18.2.0",
+    "react-i18next": "^13.5.0",
+    "react-native": "0.72.6",
+    "react-redux": "^9.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
